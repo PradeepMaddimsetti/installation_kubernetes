@@ -19,3 +19,12 @@ sudo sh get-docker.sh
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
 ```
+---
+start your cluster
+```
+minikube start
+```
+intract with your cluster
+```
+kubectl get pods 
+```
